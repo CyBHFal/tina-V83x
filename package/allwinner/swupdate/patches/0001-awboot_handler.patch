@@ -35,10 +35,10 @@ diff --git a/handlers/Makefile b/handlers/Makefile
 index b75c3ba..1c70a24 100644
 --- a/handlers/Makefile
 +++ b/handlers/Makefile
-@@ -20,3 +20,4 @@ obj-$(CONFIG_SWUFORWARDER_HANDLER) += swuforward_handler.o
+@@ -19,3 +19,4 @@
+ obj-$(CONFIG_SWUFORWARDER_HANDLER) += swuforward_handler.o
  obj-$(CONFIG_UBIVOL)	+= ubivol_handler.o
  obj-$(CONFIG_UCFWHANDLER)	+= ucfw_handler.o
- obj-$(CONFIG_RDIFFHANDLER) += rdiff_handler.o
 +obj-$(CONFIG_AWBOOT_HANDLER)	+= awboot_handler.o
 diff --git a/handlers/awboot_handler.c b/handlers/awboot_handler.c
 new file mode 100644
